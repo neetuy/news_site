@@ -312,20 +312,19 @@ img.mfp-img {
 
 /*dropdown*/
 
-@media (max-width: 999px) {
+@media (max-width: 1360px) {
 	.navbar-nav .open .dropdown-menu {
 		border: 0;
-		float: none;
+		float: left;
 		width: auto;
 		margin-top: 0;
-		position: static;
-		box-shadow: none;
+		position: relative;
 		background-color: #fff;
 	}
 
 	
     #navigation .navbar-header {
-        float: none;
+        float: left;
     }
     
     #navigation .navbar-toggle {
@@ -1355,7 +1354,7 @@ img.mfp-img {
 .video-post-list .post-content, 
 .widget .post-list .post-content{
 	float:left;
-	width:68%;
+	width:70%;
 	padding:20px 15px;
 }
 
@@ -3040,10 +3039,12 @@ float: right !important;
     margin-left: 0; }
 
     .time-font{
-    	font-size: 28px;
+    	font-size: 40px;
     	font-weight: 100;
     	font-family: serif;
     	color:#fff;
+    	float: left;
+    	position: relative;
     }
 
     .ul-margin-left{
@@ -3093,10 +3094,29 @@ float: right !important;
 	margin-bottom: 4px !important;
 	font-size: 40px;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1310px) {
   .hidden-lg-down {
     display: none !important; } }
+
+@media (max-width: 1370px){
+#navigation .navbar-toggle {
+    display: block;
+}
+}
+.navbar-toggle {
+    position: relative;
+    float: left !important;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    margin-left: 20px !important;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
 /*=========================================:: END :: =============================================*/
+
 
 
 
