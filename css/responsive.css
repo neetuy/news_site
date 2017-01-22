@@ -177,7 +177,7 @@
 	}
 	.video-post-list .post, 
 	.widget .post-list .post {
-		max-height: 200px;
+		max-height: 260px;
 	}
 	.health-feature{
 		max-height:initial;
@@ -395,11 +395,18 @@
 	.post .entry-title{
 		font-size:16px;
 	}
+	@media (max-width: 1370px){
 	.navbar-toggle{
-		position:absolute;
+		position:relative;
 		top:0;
 		right:0;
 	}
+}
+@media (max-width: 1370px){
+.navbar-toggle:focus {
+    outline: 0;
+}
+}
 	.navbar-brand{
 		padding:13px 15px;
 	}
